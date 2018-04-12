@@ -112,4 +112,4 @@ ALTER  TABLE  dbo.dashboard_widget ADD create_time DATETIME2 DEFAULT GETDATE();
 ALTER  TABLE  dbo.dashboard_widget ADD update_time DATETIME2 DEFAULT GETDATE();
 
 ALTER  TABLE  dbo.dashboard_board ADD create_time DATETIME2 DEFAULT GETDATE();
-ALTER  TABLE  dbo.dashboard_board change COLUMN update_time DATETIME2 DEFAULT GETDATE();
+ALTER  TABLE  dbo.dashboard_board ADD update_time DATETIME2 DEFAULT GETDATE();
